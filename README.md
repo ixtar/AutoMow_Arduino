@@ -7,4 +7,4 @@ Continuosly polls three ultrasonic sensors:
     echo - pin 4
 3- Parallax PING ultrasonic sensor connected to pin 5
 
-Arduno has I2C address 0x11. Upon requrest, it will return an array of three bytes for eqch sensor like so [sensor_1_byte, sensor_2_byte, sensor_3_byte]
+Arduno has I2C address 0x11. Upon requrest, it will return an array of three bytes for each sensor like so [sensor_1_byte, sensor_2_byte, sensor_3_byte]
